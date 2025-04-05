@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for tasklist-delicate-forest-5871 on 2025-04-04T10:56:17+09:00
+# fly.toml app configuration file generated for tasklist-misty-waterfall-1320 on 2025-04-05T12:39:42+09:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'tasklist-delicate-forest-5871'
+app = 'tasklist-misty-waterfall-1320'
 primary_region = 'nrt'
 console_command = 'php /var/www/html/artisan tinker'
 
@@ -16,7 +16,7 @@ console_command = 'php /var/www/html/artisan tinker'
   APP_DEBUG = 'false'
   APP_ENV = 'production'
   APP_NAME = 'Laravel'
-  APP_URL = 'https://delicate-forest-5871.fly.dev/'
+  APP_URL = 'https://tasklist-misty-waterfall-1320.fly.dev/'
   DB_CONNECTION = 'pgsql'
   DB_DATABASE = 'postgres'
   DB_HOST = 'aws-0-ap-northeast-1.pooler.supabase.com'
